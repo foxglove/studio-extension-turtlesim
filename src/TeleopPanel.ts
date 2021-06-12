@@ -1,7 +1,4 @@
-import { forwardRef } from "react";
-import { DefaultButton, mergeStyleSets, ThemeProvider } from "@fluentui/react";
-
-import { panel } from "@foxglove/studio";
+/*
 
 const styles = mergeStyleSets({
   root: {
@@ -18,13 +15,11 @@ const styles = mergeStyleSets({
     textAlign: "center",
   },
 });
+*/
 
-// By default the ThemeProvider adds an extra div to the DOM tree. We can disable this with a
-// custom `as` component to FluentThemeProvider. The component must support a `ref` property
-// otherwise we get react warnings.
-const ThemeContainer = forwardRef((props, _ref) => <>{props.children}</>);
-ThemeContainer.displayName = "ThemeContainer";
+import { PanelExtensionContext } from "@foxglove/studio";
 
+/*
 type Vec3 = {
   x: number;
   y: number;
@@ -35,8 +30,10 @@ type Twist = {
   linear: Vec3;
   angular: Vec3;
 };
+*/
 
-export function TeleopPanel(): JSX.Element {
+//export function TeleopPanel(): JSX.Element {
+/*
   const theme = panel.useFluentUiTheme();
 
   const publish = panel.usePublisher<Twist>({
@@ -158,4 +155,12 @@ export function TeleopPanel(): JSX.Element {
       </div>
     </ThemeProvider>
   );
+  */
+//return <></>;
+//}
+
+function initTeleopPanel(panelContext: PanelExtensionContext) {
+  void panelContext;
 }
+
+export { initTeleopPanel };

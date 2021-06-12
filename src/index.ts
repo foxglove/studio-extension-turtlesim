@@ -4,10 +4,10 @@
 
 import { ExtensionActivate } from "@foxglove/studio";
 
-import { TurtlePanel } from "./TurtlePanel";
-import { TeleopPanel } from "./TeleopPanel";
+import { initTurtlePanel } from "./TurtlePanel";
+// import { TeleopPanel } from "./TeleopPanel";
 
 export const activate: ExtensionActivate = (ctx) => {
-  ctx.registerPanel({ name: "Turtle", component: TurtlePanel });
-  ctx.registerPanel({ name: "Teleop", component: TeleopPanel });
+  ctx.registerPanel({ name: "Turtle", initPanel: initTurtlePanel });
+  //ctx.registerPanel({ name: "Teleop", initTeleopPanel });
 };

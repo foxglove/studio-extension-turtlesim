@@ -14,11 +14,8 @@
     "pretest": "fox pretest"
   },
   "devDependencies": {
-    "@fluentui/react": "^8.15.1",
     "@foxglove/fox": "file:../fox",
-    "@foxglove/studio": "file:../studio/packages/@foxglove/studio",
-    "@types/react": "17.0.8",
-    "react": "^17.0.2",
-    "typescript": "^4.3.2"
+    "@foxglove/studio": "file:../studio/packages/studio",
+    "typescript": "4.3.2"
   }
 }
