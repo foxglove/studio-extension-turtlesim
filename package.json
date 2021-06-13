@@ -1,10 +1,10 @@
 {
   "name": "studio-extension-turtlesim",
+  "version": "0.0.0",
   "displayName": "turtlesim",
   "description": "",
-  "publisher": "unknown",
-  "version": "0.0.0",
-  "license": "MIT",
+  "publisher": "foxglove",
+  "license": "MPL-2.0",
   "main": "./dist/extension.js",
   "scripts": {
     "foxglove:prepublish": "fox build --mode production",
