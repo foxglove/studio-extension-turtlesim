@@ -15,8 +15,10 @@
     ts-loader "9.2.2"
     webpack "5.38.1"
 
-"@foxglove/studio@file:../studio/packages/studio":
+"@foxglove/studio@0.11.0":
   version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@foxglove/studio/-/studio-0.11.0.tgz#11c2335b965101b29ba6abdce9d88552b3c8de8c"
+  integrity sha512-iS51B/YPhHsULIQKiB+vuGvX1IjOdC8cA+Bmt0N79nDkrU/7PoHzR0RNA/AV6xE2qTFSsnDq/KoG+7zpJLGPHg==
 
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
