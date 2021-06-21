@@ -2,10 +2,18 @@
   "name": "studio-extension-turtlesim",
   "version": "0.0.1",
   "displayName": "turtlesim",
-  "description": "",
+  "description": "Interact with the ROS turtlesim node",
+  "homepage": "https://github.com/foxglove/studio-extension-turtlesim",
   "publisher": "foxglove",
   "license": "MPL-2.0",
   "main": "./dist/extension.js",
+  "keywords": [
+    "ros",
+    "turtlesim",
+    "turtle",
+    "simulator",
+    "tutorial"
+  ],
   "scripts": {
     "foxglove:prepublish": "fox build --mode production",
     "build": "fox build",
