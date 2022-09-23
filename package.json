@@ -5,7 +5,7 @@
   "description": "Interact with the ROS turtlesim node",
   "homepage": "https://github.com/foxglove/studio-extension-turtlesim",
   "publisher": "foxglove",
-  "license": "MPL-2.0",
+  "license": "MIT",
   "main": "./dist/extension.js",
   "keywords": [
     "ros",
